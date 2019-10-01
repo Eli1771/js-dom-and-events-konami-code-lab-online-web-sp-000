@@ -18,5 +18,5 @@ function init() {
     }
   }
   
-  document.addEventListener('keyDown', keyDownHandler(e));
+  document.addEventListener('keydown', keyDownHandler(e));
 }
