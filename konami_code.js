@@ -13,6 +13,8 @@ function init() {
         alert("Congrats! You found my secret!");
         index = 0;
       }
+    } else {
+      index = 0;
     }
   }
 }
