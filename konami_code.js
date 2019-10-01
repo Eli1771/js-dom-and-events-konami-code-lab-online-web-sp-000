@@ -9,7 +9,7 @@ function init() {
     
     if (key === code[index]) {
       index ++;
-      if (index === code.length) {
+      if (index === code.length - 1) {
         alert("Congrats! You found my secret!");
         index = 0;
       }
